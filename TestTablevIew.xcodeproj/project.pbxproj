@@ -12,9 +12,14 @@
 		DA16173621C9D91F00A76110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA16173421C9D91F00A76110 /* Main.storyboard */; };
 		DA16173821C9D92100A76110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA16173721C9D92100A76110 /* Assets.xcassets */; };
 		DA16173B21C9D92100A76110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA16173921C9D92100A76110 /* LaunchScreen.storyboard */; };
+		DA21984721CB2C6A00F92A55 /* WithButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21984621CB2C6A00F92A55 /* WithButtonTableViewCell.swift */; };
+		DA21984921CB2C7B00F92A55 /* NoButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21984821CB2C7B00F92A55 /* NoButtonTableViewCell.swift */; };
+		F7D3DBAE61C3EDBB67C17607 /* Pods_TestTablevIew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A2FD167CD17330C7E05A3 /* Pods_TestTablevIew.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B5A2FD167CD17330C7E05A3 /* Pods_TestTablevIew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTablevIew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75080212A9349C673503C59C /* Pods-TestTablevIew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTablevIew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTablevIew/Pods-TestTablevIew.debug.xcconfig"; sourceTree = "<group>"; };
 		DA16172D21C9D91F00A76110 /* TestTablevIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTablevIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA16173021C9D91F00A76110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA16173221C9D91F00A76110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		DA16173721C9D92100A76110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA16173A21C9D92100A76110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA16173C21C9D92100A76110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA21984621CB2C6A00F92A55 /* WithButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithButtonTableViewCell.swift; sourceTree = "<group>"; };
+		DA21984821CB2C7B00F92A55 /* NoButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoButtonTableViewCell.swift; sourceTree = "<group>"; };
+		E5DE07EA3FEB66DA70F85B47 /* Pods-TestTablevIew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTablevIew.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTablevIew/Pods-TestTablevIew.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D3DBAE61C3EDBB67C17607 /* Pods_TestTablevIew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0835EF565B3A1BD41338DEDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75080212A9349C673503C59C /* Pods-TestTablevIew.debug.xcconfig */,
+				E5DE07EA3FEB66DA70F85B47 /* Pods-TestTablevIew.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F51F028040F39AE766B98C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A2FD167CD17330C7E05A3 /* Pods_TestTablevIew.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA16172421C9D91F00A76110 = {
 			isa = PBXGroup;
 			children = (
 				DA16172F21C9D91F00A76110 /* TestTablevIew */,
 				DA16172E21C9D91F00A76110 /* Products */,
+				0835EF565B3A1BD41338DEDF /* Pods */,
+				1F51F028040F39AE766B98C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +88,8 @@
 				DA16173721C9D92100A76110 /* Assets.xcassets */,
 				DA16173921C9D92100A76110 /* LaunchScreen.storyboard */,
 				DA16173C21C9D92100A76110 /* Info.plist */,
+				DA21984621CB2C6A00F92A55 /* WithButtonTableViewCell.swift */,
+				DA21984821CB2C7B00F92A55 /* NoButtonTableViewCell.swift */,
 			);
 			path = TestTablevIew;
 			sourceTree = "<group>";
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA16173F21C9D92100A76110 /* Build configuration list for PBXNativeTarget "TestTablevIew" */;
 			buildPhases = (
+				0C13DBC1B26955BD7713D6A9 /* [CP] Check Pods Manifest.lock */,
 				DA16172921C9D91F00A76110 /* Sources */,
 				DA16172A21C9D91F00A76110 /* Frameworks */,
 				DA16172B21C9D91F00A76110 /* Resources */,
+				BBEB17144A69E9D6BC495CE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +162,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C13DBC1B26955BD7713D6A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTablevIew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEB17144A69E9D6BC495CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTablevIew/Pods-TestTablevIew-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTablevIew/Pods-TestTablevIew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA16172921C9D91F00A76110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +208,8 @@
 			files = (
 				DA16173321C9D91F00A76110 /* ViewController.swift in Sources */,
 				DA16173121C9D91F00A76110 /* AppDelegate.swift in Sources */,
+				DA21984921CB2C7B00F92A55 /* NoButtonTableViewCell.swift in Sources */,
+				DA21984721CB2C6A00F92A55 /* WithButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +351,7 @@
 		};
 		DA16174021C9D92100A76110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75080212A9349C673503C59C /* Pods-TestTablevIew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +369,7 @@
 		};
 		DA16174121C9D92100A76110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE07EA3FEB66DA70F85B47 /* Pods-TestTablevIew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
